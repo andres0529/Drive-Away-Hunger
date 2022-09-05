@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setGoalComponent .ant-select,
+input.ant-input {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.setGoalComponent .ant-input-number.inputAmount {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.setGoalComponent input.ant-input-number-input {
+  text-align: end;
+}
+
+.setGoalComponent .inputContainer {
+  display: flex;
+  width: 792px;
+  justify-content: space-between;
+}
+
+.setGoalComponent input[type="number"]::-webkit-inner-spin-button,
+.setGoalComponent input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.setGoalComponent .d-flex {
+  display: flex;
+  color: #ffff;
+  justify-content: center;
+  align-items: end;
+}
+
+.setGoalComponent .saveButton {
+  background-color: rgb(232, 26, 59);
+  border: none;
+  width: 100px;
+  height: 42px;
+}
+
+.setGoalComponent .saveButton:not([disabled]):hover {
+  cursor: pointer;
+  background-color: rgb(51 51 51 / 72%);
+  border: none;
+}
+
+.setGoalComponent .saveButton[disabled] {
+  background-color: rgb(232 26 59 / 29%);
+}
+
+.setGoalComponent .label {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.setGoalComponent .title {
+  display: flex;
+  justify-content: start;
+  width: 792px;
+  margin-bottom: 20px;
+}
+
+.ant-input-number-handler-wrap {
+  display: none;
+}

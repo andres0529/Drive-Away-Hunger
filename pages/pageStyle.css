@@ -1,0 +1,8 @@
+.containerPage .btnPage{
+    display: flex;
+    justify-content: center;
+}
+.containerPage .btnPage > div{
+    width: 792px;
+    margin-top: 20px;
+}

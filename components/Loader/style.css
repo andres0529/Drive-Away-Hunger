@@ -1,0 +1,21 @@
+.loader {
+  width: 22px;
+  height: 22px;
+  border: 3px solid;
+  border-color: #ed1a3b transparent;
+  border-radius: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+  /* ed1a3b */

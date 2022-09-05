@@ -1,0 +1,264 @@
+/* .donationinputContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.donationcontainer {
+  width: 100%;
+
+  padding: 10px;
+} */
+
+/* .MainImage {
+  width: 50%;
+  justify-content: center;
+  padding: 10px;
+} */
+/* .container {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  align-items: left;
+  flex-direction: row;
+}
+.select-year {
+  display: grid;
+} */
+
+img {
+  width: 50%;
+  align-items: flex-start;
+}
+
+.dhaCard {
+  width: "10%";
+  height: "10%";
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerTimeLine {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.donationPage .table {
+  width: 950px;
+}
+
+.donationPage .iconsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.donationPage .iconsContainer span:hover {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.donationPage .btn-addNew {
+  bottom: 3rem;
+}
+
+.donationPage .title {
+  display: flex;
+  justify-content: start;
+}
+
+.select-year-label {
+  display: flex;
+  justify-content: start;
+}
+
+.donationPage .select-year {
+  display: grid;
+}
+
+.donationPage .select {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.donationPage
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  th:last-child {
+  text-align: center;
+  width: 140px;
+}
+
+.donationPage .divModifyNameModal {
+  display: flex;
+  flex-direction: column;
+}
+
+.divModifyNameModal > input {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.titleManageAdminModal {
+  display: flex;
+}
+.titleManageAdminModal :nth-child(2) {
+  padding-left: 10px;
+}
+
+.searchManageAdminModal {
+  margin: 25px 0px;
+}
+.searchManageAdminModal .containerDinamicSearcherInputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchManageAdminModal .autoComplete {
+  width: 350px;
+  margin-top: 5px;
+}
+
+.LoaderSaerchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manageTable {
+  max-height: 300px;
+}
+
+.ant-table-container table > thead > tr:first-child th:last-child {
+  text-align: center;
+  width: 140px;
+}
+
+.removeAdminFromList {
+  font-size: 20px;
+  color: #ed1a3b;
+}
+
+.removeAdminFromList:hover {
+  cursor: pointer;
+}
+
+.containerTableAdminList
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  th:nth-child(2) {
+  text-align: center;
+}
+
+.containerTableAdminList .ant-table-container table > colgroup {
+  width: 350px;
+}
+
+.containerRemoveAdminFromListIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  width: 50%;
+}
+.timeLineItem {
+  margin-top: 10px;
+  /* background-color: #ed1a3b; */
+  justify-content: space-between;
+  width: 100px;
+  height: inherit;
+}
+
+.timeline-clock-icon {
+  font-size: 16px;
+}
+
+.timeline-clock-icon {
+  font-size: 24px;
+  color: green;
+}
+
+.timeline {
+  margin-right: 30px;
+}
+
+.editOutline {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.setDonationComponent .ant-select,
+input.ant-input {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.setDonationComponent .inputContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.setDonationComponent .label {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+
+.donationPage .ant-table-container table > thead > tr:first-child th:last-child {
+  text-align: center;
+  width: 50px !important;
+}
+
+
+tbody.ant-table-tbody tr td:nth-child(4){
+  text-align: right;
+}
+
+
+.container-btn-addDonation div:nth-child(2){
+  padding-left: 10px;
+}
+
+
+.btn-addDonation {
+  background-color: #e81a3b;
+  color: #fff;
+  display: block;
+}
+
+.donationPage .btn-addDonation:hover {
+  background-color: #6c6c6c;
+  color: #fff;
+}
+
+.donationPage{
+  width: 900px !important;
+}
+
+.donationPage .table {
+  width: 900px !important;
+}
+
+.btnPageDonation> div{
+ width: 900px !important;
+}

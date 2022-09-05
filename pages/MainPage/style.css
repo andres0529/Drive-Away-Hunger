@@ -1,0 +1,231 @@
+/* .donationinputContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.donationcontainer {
+  width: 100%;
+
+  padding: 10px;
+} */
+
+/* .MainImage {
+  width: 50%;
+  justify-content: center;
+  padding: 10px;
+} */
+/* .container {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  align-items: left;
+  flex-direction: row;
+}
+.select-year {
+  display: grid;
+} */
+
+/* img {
+  width: 50%;
+  align-items: flex-start;
+} */
+
+.dhaCard {
+  width: "10%";
+  height: "10%";
+  /* background-color: #ed1a3b; */
+}
+.dhaImg {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerTimeLine {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.officeTableComponent .table {
+  width: 800px;
+}
+
+.officeTableComponent .iconsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.officeTableComponent .iconsContainer span:hover {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.officeTableComponent .btn-addNew {
+  bottom: 3rem;
+}
+
+.officeTableComponent .title {
+  display: flex;
+  justify-content: start;
+}
+
+.select-year-label {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.officeTableComponent .select-year {
+  display: grid;
+}
+
+.officeTableComponent .select {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.officeTableComponent
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  th:last-child {
+  text-align: center;
+  width: 140px;
+}
+
+.officeTableComponent .divModifyNameModal {
+  display: flex;
+  flex-direction: column;
+}
+
+.divModifyNameModal > input {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.titleManageAdminModal {
+  display: flex;
+}
+.titleManageAdminModal :nth-child(2) {
+  padding-left: 10px;
+}
+
+.searchManageAdminModal {
+  margin: 25px 0px;
+}
+.searchManageAdminModal .containerDinamicSearcherInputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchManageAdminModal .autoComplete {
+  width: 350px;
+  margin-top: 5px;
+}
+
+.LoaderSaerchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manageTable {
+  max-height: 300px;
+}
+
+.ant-table-container table > thead > tr:first-child th:last-child {
+  text-align: center;
+  width: 140px;
+}
+
+.removeAdminFromList {
+  font-size: 20px;
+  color: #ed1a3b;
+}
+
+.removeAdminFromList:hover {
+  cursor: pointer;
+}
+
+.containerTableAdminList
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  th:nth-child(2) {
+  text-align: center;
+}
+
+.containerTableAdminList .ant-table-container table > colgroup {
+  width: 350px;
+}
+
+.containerRemoveAdminFromListIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  width: 50%;
+}
+.timeLineItem {
+  margin-top: 10px;
+  /* background-color: #ed1a3b; */
+  justify-content: space-between;
+  width: 100px;
+  height: inherit;
+}
+
+.timeLineItemGoal {
+  margin-top: 10px;
+  /* background-color: #ed1a3b; */
+  justify-content: space-between;
+  width: 100px;
+  height: inherit;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
+/* .timeline-icon {
+  font-size: 16px;
+  color: #ed1a3b;
+} */
+
+.timeline-icon {
+  font-size: 45px;
+
+  color: #ed1a3b;
+}
+
+.timeline {
+  margin-right: 30px;
+}
+
+span.ant-select-selection-item {
+  text-align: initial;
+}
+
+.officeTableComponent {
+  width: 800px;
+}
+
+.ant-table-tbody > tr > td:nth-child(3){
+  text-align: end;
+}

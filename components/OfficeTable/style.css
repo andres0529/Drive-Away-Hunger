@@ -1,0 +1,141 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.officeTableComponent .table {
+  width: 792px;
+}
+
+.officeTableComponent .iconsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.officeTableComponent .iconsContainer span:hover {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.officeTableComponent .btn-addNew {
+  bottom: 3rem;
+  background-color: #e81a3b;
+}
+.btn-addNew,
+.btn-addNew:hover {
+  background-color: #6c6c6c;
+  color: #fff;
+}
+
+.officeTableComponent .title {
+  display: flex;
+  justify-content: start;
+}
+
+.officeTableComponent .select-year {
+  display: grid;
+}
+
+.officeTableComponent .select {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.officeTableComponent
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  th:last-child {
+  text-align: center;
+  width: 140px;
+}
+
+.officeTableComponent .divModifyNameModal {
+  display: flex;
+  flex-direction: column;
+}
+
+.divModifyNameModal > input {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.titleManageAdminModal {
+  display: flex;
+}
+.titleManageAdminModal :nth-child(2) {
+  padding-left: 10px;
+}
+
+.searchManageAdminModal, .searchAddNewOfficeNModal {
+  margin: 25px 0px;
+}
+.searchManageAdminModal .containerDinamicSearcherInputs, .searchAddNewOfficeNModal .containerDinamicSearcherInputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchManageAdminModal .autoComplete, .searchAddNewOfficeNModal .autoComplete {
+  width: 350px;
+  margin-top: 5px;
+}
+
+.LoaderSaerchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manageTable {
+  max-height: 300px;
+}
+
+.ant-table-container table > thead > tr:first-child th:last-child {
+  text-align: center;
+  width: 140px;
+}
+
+.removeAdminFromList {
+  font-size: 20px;
+  color: #ed1a3b;
+}
+
+.removeAdminFromList:hover {
+  cursor: pointer;
+}
+
+.containerTableAdminList
+  .ant-table-container
+  table
+  > thead
+  > tr:first-child
+  th:nth-child(2) {
+  text-align: center;
+}
+
+.containerTableAdminList .ant-table-container table > colgroup {
+  width: 350px;
+}
+
+.containerRemoveAdminFromListIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputValueAddNewOffice .officeName {
+  min-width: 100%;
+}
+
+
+thead.ant-table-thead tr th:nth-child(6) {
+  width: 140px;
+}

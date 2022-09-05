@@ -1,0 +1,19 @@
+.navbarBottom {
+    margin: 30px 0px;
+}
+.navbarBottom .menuButtons {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 792px;
+    gap: 12px;
+}
+
+.navbarBottom  .menuButtons > ul{
+    width: 792px;
+
+}
+
+.navbarBottom .componentsMenu {
+    height: 30vh;
+    margin-top: 30px;
+}
